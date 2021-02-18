@@ -7,7 +7,7 @@
 #########################################
 # Get dependency images as build stages #
 #########################################
-FROM borkdude/clj-kondo:2020.11.07 as clj-kondo
+FROM borkdude/clj-kondo:2020.12.12 as clj-kondo
 FROM dotenvlinter/dotenv-linter:3.0.0 as dotenv-linter
 FROM mstruebing/editorconfig-checker:2.2.0 as editorconfig-checker
 FROM golangci/golangci-lint:v1.37.0 as golangci-lint
